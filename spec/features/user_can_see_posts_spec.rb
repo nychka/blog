@@ -2,17 +2,27 @@
 # I want to login
 # So that, I can read posts
 feature "UserCanSeePosts" do
+  subject(:user){ FactoryBot.create(:user) }
   # When I fill in email input with 'user@example.com'
   # And I fill in password input with 'password'
   # And I click button 'Login'
-  # Then I see text 'Welcome to Company News Portal!'
-  scenario 'User enters valid credentials to get access' do
+  # Then I see text 'Signed in successfully'
+  scenario 'User enters valid credentials and sees welcome message' do
     visit '/'
     within('.new_user') do
-      fill_in 'Email', with: 'user@example.com'
-      fill_in 'Password', with: 'password'
+      fill_in id: 'user_email', with: user.email
+      fill_in id: 'user_password', with: user.password
     end
     click_button 'Sign in'
-    expect(page).to have_content 'Hello, User'
+    expect(page).to have_content 'Signed in successfully'
+  end
+
+  # When I click link 'Sign out'
+  # Then I see 'Sign in'
+  scenario 'User signs out' do
+    login_as(user, scope: :user)
+    visit '/'
+    click_link 'Logout'
+    expect(page).to have_content 'Log in'
   end
 end
