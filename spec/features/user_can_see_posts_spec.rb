@@ -3,6 +3,7 @@
 # So that, I can read posts
 feature "UserCanSeePosts" do
   subject(:user){ FactoryBot.create(:user) }
+
   # When I fill in email input with 'user@example.com'
   # And I fill in password input with 'password'
   # And I click button 'Login'
@@ -17,11 +18,13 @@ feature "UserCanSeePosts" do
     expect(page).to have_content 'Signed in successfully'
   end
 
-  # When I click link 'Sign out'
+  # When I click on profile dropdown
+  # And I click on button Logout
   # Then I see 'Sign in'
   scenario 'User signs out' do
     login_as(user, scope: :user)
     visit '/'
+    find('#profileDropdown').click
     click_link 'Logout'
     expect(page).to have_content 'Log in'
   end

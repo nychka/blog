@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0af401f6-1ef3-45fd-8d5a-feccd8430176" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/spec/factories/users.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hr-admin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hr-admin.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/home/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/home/index.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/controllers/home_controller_spec.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/features/user_can_see_posts_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/user_can_see_posts_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/helpers/home_helper_spec.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/views/home/index.html.erb_spec.rb" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +14,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/hr_admin@UserCanSeePosts_User_enters_valid_credentials_to_get_access__hr_admin.rcov" NAME="UserCanSeePosts User enters valid credentials to get access: hr-admin Coverage Results" MODIFIED="1531233130644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hr-admin" />
-    <SUITE FILE_PATH="coverage/hr_admin@UserCanSeePosts_User_signs_out__hr_admin.rcov" NAME="UserCanSeePosts User signs out: hr-admin Coverage Results" MODIFIED="1531253461607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hr-admin" />
-    <SUITE FILE_PATH="coverage/hr_admin@UserCanSeePosts__hr_admin.rcov" NAME="UserCanSeePosts: hr-admin Coverage Results" MODIFIED="1531253946183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hr-admin" />
+    <SUITE FILE_PATH="coverage/hr_admin@UserCanSeePosts_User_signs_out__hr_admin.rcov" NAME="UserCanSeePosts User signs out: hr-admin Coverage Results" MODIFIED="1531310123488" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hr-admin" />
+    <SUITE FILE_PATH="coverage/hr_admin@UserCanSeePosts__hr_admin.rcov" NAME="UserCanSeePosts: hr-admin Coverage Results" MODIFIED="1531310130754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hr-admin" />
     <SUITE FILE_PATH="coverage/hr_admin@Development__hr_admin.rcov" NAME="Development: hr-admin Coverage Results" MODIFIED="1531252548463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hr-admin" />
     <SUITE FILE_PATH="coverage/hr_admin@UserCanSeePosts_User_enters_valid_credentials_and_sees_welcome_message__hr_admin.rcov" NAME="UserCanSeePosts User enters valid credentials and sees welcome message: hr-admin Coverage Results" MODIFIED="1531253538142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="hr-admin" />
   </component>
@@ -59,22 +47,13 @@
       <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+            <state relative-caret-position="345">
+              <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rails_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="102" column="5" selection-start-line="102" selection-start-column="5" selection-end-line="102" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_spec.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -106,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
+            <state relative-caret-position="326">
+              <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -118,8 +97,17 @@
       <file leaf-file-name="user_can_see_posts_spec.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/features/user_can_see_posts_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+            <state relative-caret-position="75">
+              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user_can_edit_his_profiles_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/features/user_can_edit_his_profiles_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -158,11 +146,12 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
         <option value="$PROJECT_DIR$/spec/factories/users.rb" />
-        <option value="$PROJECT_DIR$/spec/features/user_can_see_posts_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/features/user_can_edit_his_profiles_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/user_can_see_posts_spec.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -201,6 +190,17 @@
             <path>
               <item name="hr-admin" type="b2602c69:ProjectViewProjectNode" />
               <item name="hr-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hr-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hr-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hr-admin" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hr-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="spec" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -463,8 +463,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="RSpec.UserCanSeePosts: hr-admin" />
-        <item itemvalue="RSpec.UserCanSeePosts User enters valid credentials and sees welcome message: hr-admin" />
         <item itemvalue="RSpec.UserCanSeePosts User signs out: hr-admin" />
+        <item itemvalue="RSpec.UserCanSeePosts User enters valid credentials and sees welcome message: hr-admin" />
         <item itemvalue="RSpec.UserCanSeePosts User enters valid credentials to get access: hr-admin" />
       </list>
     </recent_temporary>
@@ -480,26 +480,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1531214445565</updated>
-      <workItem from="1531214446757" duration="10110000" />
+      <workItem from="1531214446757" duration="11526000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserCanSeePosts_User_signs_out__hr-admin - 2018.07.10 at 23h 06m 31s.xml">
-      <configuration name="UserCanSeePosts User signs out: hr-admin" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserCanSeePosts_User_signs_out__hr-admin - 2018.07.10 at 23h 09m 08s.xml">
-      <configuration name="UserCanSeePosts User signs out: hr-admin" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserCanSeePosts_User_signs_out__hr-admin - 2018.07.10 at 23h 10m 10s.xml">
-      <configuration name="UserCanSeePosts User signs out: hr-admin" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserCanSeePosts_User_signs_out__hr-admin - 2018.07.10 at 23h 10m 16s.xml">
-      <configuration name="UserCanSeePosts User signs out: hr-admin" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="UserCanSeePosts_User_signs_out__hr-admin - 2018.07.10 at 23h 11m 04s.xml">
-      <configuration name="UserCanSeePosts User signs out: hr-admin" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
     <history-entry file="UserCanSeePosts_User_enters_valid_credentials_and_sees_welcome_message__hr-admin - 2018.07.10 at 23h 11m 51s.xml">
       <configuration name="UserCanSeePosts User enters valid credentials and sees welcome message: hr-admin" configurationId="RSpecRunConfigurationType" />
     </history-entry>
@@ -515,12 +500,28 @@
     <history-entry file="UserCanSeePosts__hr-admin - 2018.07.10 at 23h 19m 09s.xml">
       <configuration name="UserCanSeePosts: hr-admin" configurationId="RSpecRunConfigurationType" />
     </history-entry>
+    <history-entry file="UserCanSeePosts__hr-admin - 2018.07.11 at 14h 36m 53s.xml">
+      <configuration name="UserCanSeePosts: hr-admin" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserCanSeePosts_User_signs_out__hr-admin - 2018.07.11 at 14h 55m 07s.xml">
+      <configuration name="UserCanSeePosts User signs out: hr-admin" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserCanSeePosts_User_signs_out__hr-admin - 2018.07.11 at 14h 55m 16s.xml">
+      <configuration name="UserCanSeePosts User signs out: hr-admin" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserCanSeePosts_User_signs_out__hr-admin - 2018.07.11 at 14h 55m 26s.xml">
+      <configuration name="UserCanSeePosts User signs out: hr-admin" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="UserCanSeePosts__hr-admin - 2018.07.11 at 14h 55m 34s.xml">
+      <configuration name="UserCanSeePosts: hr-admin" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10110000" />
+    <option name="totallyTimeSpent" value="11526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24248926" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -528,10 +529,10 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Database" weight="0.3297568" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32848486" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32848486" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.25939393" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -685,31 +686,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="93" selection-start-line="7" selection-start-column="93" selection-end-line="7" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="103" selection-start-line="21" selection-start-column="103" selection-end-line="21" selection-end-column="103" />
         </state>
       </provider>
     </entry>
@@ -737,21 +717,10 @@
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/user_can_see_posts_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/home_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/rails_helper.rb">
@@ -761,8 +730,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/user_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/home_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/user_can_edit_his_profiles_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/user_can_see_posts_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/sessions/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="72" selection-start-line="8" selection-start-column="72" selection-end-line="8" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="22" column="35" selection-start-line="22" selection-start-column="35" selection-end-line="22" selection-end-column="35" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
