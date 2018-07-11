@@ -1,0 +1,9 @@
+<div class="card" style="width: 18rem;">
+  <!--  <img class="card-img-top" src="#" alt="Card image cap">-->
+  <div class="card-body">
+    <h5 class="card-title"><%= "#{user.first_name} #{user.last_name}"%></h5>
+    <p class="card-text"><%= user.email %></p>
+<!--    <a href="#" class="btn btn-primary">Edit</a>-->
+    <%= link_to 'Edit', edit_user_path(user), class: 'btn btn-primary' %>
+  </div>
+</div>

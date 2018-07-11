@@ -11,14 +11,15 @@
   <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <%= link_to 'NavBar', root_path, class: 'navbar-brand nav-link' %>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+<!--              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>-->
+
             </li>
           </ul>
 
@@ -29,7 +30,7 @@
               <%= current_user.first_name %>
             </a>
             <div class="dropdown-menu" aria-labelledby="profileDropdown">
-              <a class="dropdown-item" href="#">Profile</a>
+              <%= link_to 'Profile', profile_path, class: 'dropdown-item'  %>
               <%= link_to "Logout", destroy_user_session_path, method: :delete, class: 'dropdown-item'  %>
             </div>
             </li>
