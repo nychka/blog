@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
-  before_action :set_user, only: [:update]
+  load_and_authorize_resource
+  before_action :set_user, only: [:update, :edit]
 
   def index
   end
@@ -11,9 +12,11 @@ class UsersController < ApplicationController
   end
 
   def update
-    @user.update! user_params
-
-    redirect_to action: 'profile'
+      if @user.update(user_params)
+        redirect_to action: 'profile', notice: 'User was successfully updated.'
+      else
+        render :edit
+      end
   end
 
   def destroy
@@ -28,7 +31,7 @@ class UsersController < ApplicationController
   private
 
   def set_user
-    @user ||= User.find(user_params[:id])
+    @user = User.find(params[:id])
   end
 
   def user_params

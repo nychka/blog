@@ -1,7 +1,7 @@
 # As a User
 # I want to login
 # So that, I can read posts
-feature "UserCanSeePosts" do
+feature "UserCanSignInAndSignOut" do
   subject(:user){ FactoryBot.create(:user) }
 
   # When I fill in email input with 'user@example.com'

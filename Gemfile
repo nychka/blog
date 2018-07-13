@@ -16,6 +16,7 @@ gem 'devise'
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.1.1'
 gem 'devise-bootstrap-views'
+gem 'cancancan', '~> 2.0'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -24,6 +25,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.7'
   gem 'factory_bot_rails'
   gem 'database_cleaner'
+  gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 end
 
 group :development do
